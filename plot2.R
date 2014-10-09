@@ -34,6 +34,8 @@ rm(consumption, classes, my_date)
 #
 #
 # Plot2 
+# assign the png file name
+png(filename = "plot2.png",)
 # 
 par(xaxt="n" )                          # disable default x axis scale
 plot(two_days$Global_active_power, type = "l",
@@ -44,4 +46,7 @@ plot(two_days$Global_active_power, type = "l",
 par(xaxt="s")                           # enable x axis scale
 #                                       # specify x axis scale
 axis(1, at = c(1, 1440, 2880), labels = c("Thu", "Fri", "Sat"))
+#
+# close the device and write the png file
+dev.off()
 #
