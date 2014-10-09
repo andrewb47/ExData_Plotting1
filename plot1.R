@@ -7,7 +7,7 @@
 #          Format the time with 'times' function of 'chron' package
 #          Select the observations of the required two days
 #                       2007-02-01 and 2007-02-02 in 'two_days'
-#          Make the histogram plot and write it to a png file
+#          Make the histogram and write it to a png file
 #################
 #
 library(chron)  # used for tidying the 'time' column
