@@ -1,8 +1,8 @@
 ################# 
 # Title: Exploratory Data Analysis Project 1 Plot 3
 # Author: andrewb47
-# Date:2014-10-09 
-# Purpose: Read the data file to consumption
+# Date:2014-10-11 
+# Purpose: Read the data file to 'consumption'
 #          Format the date with 'as.Date' 
 #          Format the time with 'times' function of 'chron' package
 #          Select the observations of the required two days
