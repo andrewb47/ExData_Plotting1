@@ -84,7 +84,8 @@ par(xaxt="s")                           # enable x axis scale
 axis(1, at = c(1, 1440, 2880), labels = c("Thu", "Fri", "Sat"))
 #
 legend("topright", 
-       pch = 45,                        # dash character - "l" was vertical
+       pch = "—",                       # dash character - "l" was vertical
+       bty = "n",                       # no legend box
        col = c("black", "red", "blue"),
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
 )
