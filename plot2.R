@@ -40,7 +40,7 @@ png(filename = "plot2.png",)
 par(xaxt="n" )                          # disable default x axis scale
 plot(two_days$Global_active_power, type = "l",
      xlab = "",                         # disable default x axis label
-     ylab = "Global Active Power (kilowatts)",
+     ylab = "Global Active Power  (kilowatts)",
      )
 #
 par(xaxt="s")                           # enable x axis scale
